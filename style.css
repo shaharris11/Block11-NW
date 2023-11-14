@@ -1,0 +1,133 @@
+.body {
+    background-color: #1034a6 !important;
+}
+
+#header {
+    background-color: #6cb4ee;
+}
+/* This the header thats on top of every page */
+#flex {
+    box-shadow: 0 0 12px -2px skyblue;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: #6cb4ee;
+    color: skyblue;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+/* home page */
+.main {
+    background-color: #0076ce;
+    margin: 1em 2em 1em 2em;
+    height: 75vh;
+    color: #fff;
+}
+.main h2 {
+    text-align: center;
+    font-size: 40px;
+    background-color: #6cb4ee;
+}
+.main img {
+    float: right;
+    width: 300px;
+
+}
+.main p {
+    font-size: 25px;
+}
+.quote {
+    font-size: 43px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    
+}
+
+/* about page */
+.main-about {
+    background-color: #0076ce;
+    margin: 1em 0 1em 0;
+    color: #fff;
+    padding: 1em;
+    border: 15px solid #fff;
+
+}
+.main-about img {
+    float: right;
+    max-width: 400px;
+    margin: 30px 30px 0 10px;
+}
+.main-about h2 {
+    text-align: center;
+    font-size: 40px;
+    background-color: #6cb4ee;
+}
+.about img {
+    float: left;
+    max-width: 400px;
+}
+.about {
+    font-size: 25px;
+    border-top: 2px solid #fff;
+    padding: 1em;
+}
+
+/* porfolio page */
+
+
+#portfolioheader {
+    text-align: center;
+    font-size: 35px;
+    background-color: #6cb4ee;
+    color: white;
+}
+
+
+.built {
+    display: grid;
+    border: solid;
+    margin: 1em 0 1em 0;
+    background-color: #224c98;
+    color: white;
+    border-radius: 30px;
+}
+.built h2 {
+    text-align: center;
+}
+.built-content {
+    
+    flex-direction: column;
+    
+}
+.built-content img {
+    width: 200px;
+    height: 200px;
+    float: left !important; 
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin: 15px 15px 15px 15px;
+}
+/* contect page */
+#contecthearder {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+#form {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+#name {
+    width: 50%;
+    height: 35px;
+    color: #fff;
+}
+#message {
+    width: 75%;
+    font-size: 20px;
+    color: #fff;
+}
